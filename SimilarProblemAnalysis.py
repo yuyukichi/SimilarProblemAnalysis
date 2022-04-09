@@ -30,7 +30,7 @@ O = User("O",1,16,0,13)
 T = User("T",1,14,0,9)
 M = User("M",1,14,0,14)
 Yuki = User("Yuki",0,17,0,9)
-#企画書に記載した比較に利用した値
+#未踏企画書に記載した比較に利用した値
 
 def euclidean_distance_chack(user_date1,user_date2):
 	a = np.array([user_date1[1],user_date1[2],user_date1[3],user_date1[4]])
